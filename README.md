@@ -1,0 +1,3 @@
+# Tcl String Comparison Bug
+
+This repository demonstrates a subtle bug related to string comparisons in Tcl. The `badproc` procedure in `bug.tcl` uses `==` to compare two values. This operator performs string comparison and might not work as expected for numerical values or when dealing with different data types.  The solution, in `bugSolution.tcl`, shows how to use the `eq` operator for correct comparison of numerical values.
