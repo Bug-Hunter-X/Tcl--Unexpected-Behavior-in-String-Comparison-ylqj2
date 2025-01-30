@@ -1,0 +1,1 @@
+proc goodproc {a b} {if {[expr {$a == $b}]} {return 1} {return 0}} # or use 'eq' for better type safety: proc goodproc {a b} {if {$a eq $b} {return 1} {return 0}} 
